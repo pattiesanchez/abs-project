@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+	<title>Loja ABS</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <style type="text/css">
+		*{
+			margin: 0;
+			border: 0;
+			padding: 0;
+
+		}
+		html{
+			font-size: 16px;
+		}
+		header{
+			background-color: rgba(220, 0, 0, 1);
+			color: #fff;
+			font-family: arial;
+			width: 100%;
+			position: absolute;
+		}
+		h3{
+			font-family: arial;
+			text-align: center;
+			padding-top: 2px;
+			font-size: 16px;
+            font-weight: bolder;
+		}
+		body{
+			background-color: #FFFFF0;
+		}
+		.container{
+			display: block;
+			background-color: #fff;
+			width: 95%;
+			margin: 0 auto;
+			max-width: 90%;
+			max-height: 90%;
+			min-height: 0;
+			min-width: 0;
+			margin-top: 20px;
+			text-align: justify;
+		}
+		footer{
+			font-family: arial;
+			color: rgb(0, 0, 0);
+			text-align: center;
+			padding-top: 5px;
+			padding-bottom: 5px;
+		}
+		img{
+			width: 300px;
+			height: auto;
+			padding: 5px;
+		}
+		figure{
+			text-align: center;
+		}
+		p{
+			font-family: arial;
+			padding: 10px;
+		}
+		h1{
+			font-family: arial;
+			text-align: center;
+			padding-top: 90px;
+			font-size: 18px;
+			width: bold;
+		}
+		h5{
+			font-family: arial;
+			text-align: center;
+			padding-top: 10px;
+			font-size: 16px;
+            color: black;
+		}
+        h2{
+			font-family: arial;
+			text-align: left;
+			padding-top: 10px;
+			font-size: 16px;
+            font-weight: bolder;
+            color: black;
+		}
+		#formulario{
+			box-shadow: 2px 2px #DCDCDC;
+			background-color: #F0F8FF;
+			font-size: 11px;
+			font-family: arial;
+			padding: 10px;
+		}
+		.formulario-contato{
+			font-family: arial;
+			font-size: 14px;
+			font-weight: bolder;
+            color: black;
+		}
+		input{
+			font-family: sans-serif;
+			font-size: 15px;
+			padding: 5px;
+		}
+		.dados-formulario{
+			width: 40%;
+		}
+        .navbar{
+            background-color:#7B68EE;
+        }
+		.badge{
+			text-align: center;
+			padding-top: 20px;
+			padding-left: 450px;
+			background-color: #F0F8FF;
+			color: black;
+			background-position: center;
+		}
+	</style>
+</head>
+
+  <body>
+    <header class="header-area">
+        <nav class="navbar fixed-top" >
+            <div class="container-fluid">
+                
+                <a class="navbar-brand" href="/"><img src="img/imagem-topo.png" alt="" width="310"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="/">
+                                    <i class="bi bi-house"></i>
+                                    Início
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/employees/">
+                                    <i class="bi bi-people"></i>
+                                    Clientes
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="produtos.html">
+                                    <i class="bi bi-file-earmark"></i>
+                                    Produtos
+                                </a>
+                            </li>
+
+							<li class="nav-item">
+                                <a class="nav-link" href="/departments/">
+									<i class="bi bi-cart"></i>
+                                    Pedidos
+                                </a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    <i class="bi bi-box-arrow-right"></i>
+                                    Logout
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="/">Yes</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">No</a></li>
+                                        
+
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+	<div class="badge text-wrap">
+		<h1>NÓS ACREDITAMOS E CRESCEMOS JUNTOS!</h1>
+	</div>
+    <section class="container"> 
+		<h5>A ABS Produtos Automotivos é uma empresa criada por duas irmãs, e tem o objetivo de vender 
+			<br>produtos de limpeza automotiva de qualidade para nossos fiéis clientes. A empresa foi criada 
+			<br>em 2015 e desde então mantém o foco de prestar um bom serviço à nossos clientes. </h5>
+		<br>
+    <section class="container"> 
+		<h3>Cadastre-se aqui para receber nosso catálogo de produtos: </h3>
+
+		<section class="container" id="formulario">
+		<h2>Informe seus dados:</h2>
+		<form action="#" method="get" target="_blank">
+
+			<p class="formulario-contato">
+				<label for="nome">Nome: </label><br>
+				<input class="dados-formulario" type="text" id="nome" name="nome" placeholder="Insira seu nome">
+			</p>
+
+			<p class="formulario-contato">
+				<label for="contato">Contato: </label><br>
+				<input class="dados-formulario" type="tel" id="tel" name="tel" placeholder="Insira seu contato (XX) XXXXX-XXXX">
+			</p>
+
+			<p class="formulario-contato">
+				<label for="endereco">E-mail: </label><br>
+				<input class="dados-formulario" type="address" id="address" name="address" placeholder="Insira seu endereço de e-mail">
+			</p>
+
+			<p class="formulario-contato">
+				<button type="button" class="btn btn-success">ENVIAR</button>
+				<button type="button" class="btn btn-danger">LIMPAR</button>
+				<!-- <input type="submit" value="ENVIAR">
+				<input type="reset" value="LIMPAR"> -->
+			</p>
+		</form>
+	</section>
+
+	<br>
+    
+    <footer>
+        <h3>ABS - Produtos Automotivos</h3>
+        <section class="texto-footer"><b>Contato:</b>(xx) xxxx-xxxx</section>
+        <section class="texto-footer"><b>E-mail:</b>xxxxxxx@hotmail.com</section>
+        <section class="texto-footer"><b>CNPJ:</b>xxxxxxx/xxxxx</section>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+
+  </body>
+</html>
